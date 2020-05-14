@@ -34,10 +34,11 @@ color: blue;
 a:hover {
   color: #FF530D;
 }
-
+.shadowed {
+  box-shadow: 2px 2px 3px rgb(200, 200, 200);
+}
 .img-circle {
   border-radius: 150px;
-  box-shadow: 2px 2px 3px rgb(200, 200, 200);
 }
 
 .list-inline {
@@ -48,6 +49,10 @@ a:hover {
 .list-inline li {
   display: inline-block;
   letter-spacing: 10px;
+}
+.btn-blue {
+  background-color: blue;
+  color: white;
 }
 
 @media (max-width: 960px) {
